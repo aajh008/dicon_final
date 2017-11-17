@@ -13,7 +13,7 @@ var CowVsButcher;
             _super.apply(this, arguments);
         }
         Boot.prototype.preload = function () {
-            this.game.load.image("Boot", "Graphics/Boot/Boot.png")
+            this.game.load.image("Boot", "Graphics/Boot/Boot.png");
             this.game.load.image("PreloaderBackground", "Graphics/Boot/Background.png");
             this.game.load.image("bloodier_saw", "Graphics/Game/Saws/bloodier_saw.png");
             //Cow
