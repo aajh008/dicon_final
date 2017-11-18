@@ -80,7 +80,8 @@ var CowVsButcher;
             this.quitButton.onInputDown.addOnce(this.exitGame, this);
         };
         GameOver.prototype.exitGame = function () {
-            this.game.destroy();
+           self.opener = self;
+           self.close();
         };
         return GameOver;
     })(Phaser.State);
